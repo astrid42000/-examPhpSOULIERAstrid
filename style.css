@@ -1,0 +1,394 @@
+body{
+    background-image:  url("image/desktop.jpg");
+    font-family: "Source Sans Pro";
+    width:100%;
+    margin:auto;
+    padding:auto;
+
+}
+
+hr {
+    border: 0;
+    border-bottom: solid 1px #c8cccf;
+    margin: 3em 0;
+}
+
+
+
+#main{
+    background-color:#ffffff ;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    text-align: center;
+    width: 40%;
+    color:#5d496b;
+    margin-bottom:80px;
+    margin-top:100px;
+    font-size: 14pt;
+    font-weight: 300;
+    line-height: 2;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+/************************************************************ACCUEIL**********************************/
+.cv2{
+    letter-spacing: 1px;
+    text-transform:none;
+}
+.cv2 a{
+    color: white;
+    font-weight: bold;
+}
+
+.cv2 a:hover{
+    text-decoration: none;
+    color:white;
+}
+
+.cv2 button{
+    background-color:#5f2a5f;
+    border:#cccccc 1px solid;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.cv2 button:hover{
+    background-color:#cccccc;
+    border:#5f2a5f 1px solid;
+    border-radius: 20px;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carte{
+    display: block;
+    margin: auto;
+    margin-right:50px;
+    margin-bottom: 50px;
+}
+/****************************************************FIN ACCUEIL**************************************************/
+
+/*********************************HEADER***********************************************/
+header{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+
+
+}
+
+
+header img{
+    border-radius: 100%;
+    width:30%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+
+
+header p{
+    text-align: center;
+    margin-top:20px;
+    font-size: large;
+}
+
+header h1{
+    text-align: center;
+    font-size:larger;
+
+}
+
+/****************************************************FIN HEADER****************************************/
+
+
+/************************************************ACCORDEON*****************************************************/
+.accordion{
+    padding-top:30px;
+}
+
+
+.button button{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    margin-bottom:10px;
+    background-color:#ffffff ;
+    border:1px solid #5d496b;
+    color:#5d496b;
+    width:40%;
+    height:40px;
+    font-family: "Source Sans Pro";
+    font-size: 14pt;
+    font-weight: 300;
+    line-height: 2;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.button{
+    padding-bottom:50px;
+}
+.button button:hover{
+    font-style:italic;
+}
+
+.button a{
+    text-decoration: none;
+}
+
+.card-body li{
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.titre{
+    font-weight: bold;
+}
+
+.sous{
+    letter-spacing: normal;
+    line-height: 1;
+}
+
+.sous1{
+    letter-spacing: normal;
+    line-height: 1;
+    margin-bottom:40px;
+}
+
+.sousMenu{
+    line-height: 1;
+    letter-spacing: 1px;
+    font-size: small;
+
+
+}
+
+.sousMenu1{
+    line-height: 1;
+    letter-spacing: 1px;
+    font-size: small;
+    margin-bottom: 40px;
+
+}
+
+.competence{
+    text-align: center;
+
+}
+
+.competence li{
+    text-decoration: none;
+    text-align: center;
+    list-style-type:none;
+}
+/******************************************************** ACCORDEON********************************************/
+
+
+.reseaux a{
+    background-image: url("image/iconSprite.jpg");
+    display: inline-block;
+    width: 60px;
+    height: 70px;
+    transition: all 0.30s linear;
+
+
+}
+
+
+.link{
+    background-position: 180px 0px;
+    margin-left:15px;
+
+}
+
+.git{
+    background-position: 120px 0px;
+
+}
+
+.email:hover{
+    background-position: 0px -73px ;
+}
+
+.link:hover{
+    background-position: 180px -73px ;
+}
+
+.git:hover{
+    background-position:120px -73px ;
+}
+
+
+.cv{
+    letter-spacing: 1px;
+    text-transform:none;
+}
+.cv a{
+    color: white;
+    font-weight: bold;
+}
+
+.cv a:hover{
+    text-decoration: none;
+    color:white;
+}
+
+.cv button{
+    background-color: #cccccc;
+    border:#cccccc 1px solid;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.cv button:hover{
+    background-color: #5f2a5f;
+    border:#5f2a5f 1px solid;
+    border-radius: 20px;
+}
+
+/***********************************************LOGIN******************************************/
+.login{
+    background-color:#ffffff ;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    text-align: center;
+    width: 40%;
+    color:#5d496b;
+    margin-bottom:80px;
+    margin-top:100px;
+    font-size: 14pt;
+    font-weight: 300;
+    line-height: 2;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.connexion{
+    margin-top:40px;
+}
+
+.erreur{
+    color:darkred;
+    background-color:#ffffff;
+    display:block;
+    margin:auto;
+}
+/************************************FIN LOGIN***********************************/
+
+
+/**********************************************SESSION*********************************************/
+.tableaux
+{
+    background-color:#ffffff ;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    text-align: center;
+    width: 50%;
+    color:#5d496b;
+    margin-bottom:80px;
+    margin-top:100px;
+    font-size: 14pt;
+    font-weight: 300;
+    line-height: 2;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.tableaux h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.experience{
+    background-color:#ffffff ;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    text-align: center;
+    width: 40%;
+    color:#5d496b;
+    font-size: 14pt;
+    font-weight: 300;
+    line-height: 2;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding-top:20px;
+    padding-bottom:20px;}
+
+
+.bonjour{
+    display: block;
+    margin:auto;
+}
+
+.bonjour h2{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 30px;
+    font-size: 80px;
+}
+
+.bonjour button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+    margin-bottom:30px;
+    width:400px;
+}
+
+.bonjour a{
+    text-decoration: none;
+    color:#5f2a5f;
+}
+
+
+.crud button{
+    display:block;
+    margin:auto;
+}
+
+
+/*************************************************FIN SESSION***************************************/
+
+
+
+
+
+/********************MEDIA QUERIES********************************/
+
+@media screen and (max-width:1100px) {
+
+    #main{
+        width:70%;
+
+    }
+
+    .button button{
+        width:60%;
+
+    }
+}
+
+@media screen and (max-width:500px) {
+    #main{
+        width:80%;
+    }
+
+    .button button{
+        width:70%;
+    }
+}
