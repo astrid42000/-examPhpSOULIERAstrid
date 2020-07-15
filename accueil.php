@@ -9,6 +9,7 @@ include ('head.php');
 <?php
 $reponse = $pdo->query('SELECT * FROM experience');
 $reponse2= $pdo->query('SELECT * FROM competence');
+
 ?>
 
 <body>
@@ -59,8 +60,10 @@ $reponse2= $pdo->query('SELECT * FROM competence');
             </div>
             <div id="collapseTwo" class="collapse" >
                 <div class="card-body">
-                    <?php while ($data = $reponse->fetch()){?>
-                        <li><?php echo($data['date_debut']);?>/ <?php echo($data['date_fin']);?></li>
+                    <?php while ($data = $reponse->fetch()){
+                        $newDate = date("d/m/Y" ,  strtotime ( $data['date_debut']));
+                        $newDate2= date("d/m/Y",strtotime ( $data['date_fin']))?>
+                        <li><?php echo($newDate);?> au <?php echo($newDate2);?></li>
                         <p class="titre"><?php echo($data['titre']);?></p>
                         <p class="sous"><?php echo($data['description']);?></p>
                     <?php }

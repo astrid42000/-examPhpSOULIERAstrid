@@ -51,12 +51,12 @@ if(count($errors)!=0){
 
 function ajoutBDD($pdo){
     $envoi = $pdo->prepare('INSERT INTO experience (titre,description,date_debut,date_fin) 
-VALUES (:titre, :description, :date_debut, :date_fin)');
+VALUES (:titre, :description, :date_debut, :date_fin=null)');
     $envoi->execute([
         'titre' => $_POST['titre'],
         'description' => $_POST['description'],
         'date_debut' => $_POST['date_debut'],
-        'date_fin' => ($_POST['date_fin'])
+        'date_fin' => $_POST['date_fin']
 
     ]);
 
@@ -105,10 +105,6 @@ function validexp($pdo){
 
         $errors[]="il manque la date de début";
     }
-
-    if (empty($_POST['date_fin'])){
-
-        $errors[]="il manque la date de fin";}
 
     if (empty($_POST['description'])){
 

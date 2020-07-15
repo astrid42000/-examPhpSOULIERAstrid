@@ -34,7 +34,7 @@ $reponse2= $pdo->query('SELECT * FROM competence');
     <h2>Bonjour <?php echo($_SESSION['prenom']) ?></h2>
     <div>
     <button class="crud"><a href="ajoutExp.php">Ajout expérience</a></button>
-    <button class="crud"><a href="ajoutComp.php">Ajout compétences</a></button>
+    <button class="crud"><a href="ajoutComp.php">Ajout compétence</a></button>
     </div>
 </div>
 
